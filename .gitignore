@@ -1,0 +1,28 @@
+# Rust build artifacts
+target/
+**/*.rs.bk
+
+# Engram local test indexes & vaults
+.eng_index/
+test_vault/
+*.log
+
+# Media & local binaries
+*.mp4
+*.mov
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Agent configuration (keep local, do not push to public git)
+GEMINI.md
+.gemini/
