@@ -1,0 +1,26 @@
+[package]
+name = "eng"
+version = "0.1.0"
+edition = "2021"
+description = "Deterministic memory engine and Agent Unix Tool for autonomous terminal coding agents"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+keywords = ["agent", "memory", "unix-tool", "tantivy", "rag"]
+categories = ["command-line-utilities", "text-processing"]
+
+[dependencies]
+clap = { version = "4.5", features = ["derive", "env"] }
+tantivy = "0.22"
+tiktoken-rs = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+serde_yaml = "0.9"
+regex = "1.10"
+dirs = "5.0"
+anyhow = "1.0"
+pulldown-cmark = "0.12"
+chrono = { version = "0.4", default-features = false, features = ["clock", "std"] }
+fastembed = "7.1.0"
+
+[dev-dependencies]
+tempfile = "3.10"
