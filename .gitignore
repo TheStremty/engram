@@ -26,3 +26,4 @@ ehthumbs.db
 # Agent configuration (keep local, do not push to public git)
 GEMINI.md
 .gemini/
+prompt.txt
