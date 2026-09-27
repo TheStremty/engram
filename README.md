@@ -1,8 +1,18 @@
-# eng (engram)
+# engram
 
-Ultralight, deterministic cache and long-term memory engine for terminal agents operating on a flat folder of Markdown (`.md`) files. Combines Tantivy full-text BM25 search with local neural vector embeddings via Reciprocal Rank Fusion (RRF).
+```text
+  ___ _ __   __ _ _ __ __ _ _ __ ___  
+ / _ \ '_ \ / _` | '__/ _` | '_ ` _ \ 
+|  __/ | | | (_| | | | (_| | | | | | |
+ \___|_| |_|\__, |_|  \__,_|_| |_| |_|
+            |___/                     
+```
 
-Optimized for **minimal LLM token consumption**: output is strictly cut to a given token budget with sentence boundary preservation, machine-readable, and free from ASCII boxes or conversational chatter.
+[![CI](https://github.com/TheStremty/engram/actions/workflows/ci.yml/badge.svg)](https://github.com/TheStremty/engram/actions/workflows/ci.yml)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](LICENSE)
+[![Rust: 2021](https://img.shields.io/badge/rust-2021-orange.svg)](Cargo.toml)
+
+> Ultralight, deterministic cache and long-term memory engine for terminal coding agents operating on a flat folder of Markdown files. Combines Tantivy full-text BM25 search with local neural vector embeddings via Reciprocal Rank Fusion (RRF).
 
 ---
 
